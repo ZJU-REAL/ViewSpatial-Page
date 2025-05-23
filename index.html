@@ -17,7 +17,7 @@
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
   <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="ViewSpatial-Page/static/images/your_twitter_banner_image.png">
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
   <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
@@ -25,7 +25,7 @@
 
 
   <title>ViewSpatial-Bench: Evaluating Multi-perspective Spatial Localization in Vision-Language Models</title>
-  <link rel="icon" type="image/x-icon" href="ViewSpatial-Page/static/images/avatar3.png">
+  <link rel="icon" type="image/x-icon" href="static/images/avatar.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -301,7 +301,7 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <p>
-<img src="ViewSpatial-Page/static/images/pdf2png/fig1/fig1-1.png" alt="Learning from model weights" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+<img src="static/images/fig1-1.png" alt="Learning from model weights" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
         </p>
         <br>
         <p>
@@ -335,7 +335,7 @@
         <div class="content">
           <h2 class="title is-3">ViewSpatial-Bench construction pipeline</h2>
          <p>
-              <img src="ViewSpatial-Page/static/images/pdf2png/pipline.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+              <img src="static/images/pipline.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
             </p>
             <p>
                 ViewSpatial-Bench comprises five localization recognition tasks across two complementary perspective frameworks. From the camera perspective: (1) Object Relative Direction recognition(Cam-Rel. Dir.), which determines spatial relationships between objects directly from images; (2) Object View Orientation recognition(Cam-Obj. Oir.), which identifies the gaze direction of individuals relative to the camera from an egocentric viewpoint. These tasks evaluate VLMs' intuitive, egocentric spatial understanding abilities. From the human perspective: (3) Object Relative Direction recognition(Per-Rel. Dir.), which involves adopting the viewpoint of a character in the image to determine the spatial relationships of other objects from their perspective; (4) Object View Orientation recognition(Per-Obj. Oir.), which requires assuming the position of a character in the image to determine the direction of their gaze; (5) Scene Simulation Relative Direction recognition(Per-Sce. Sim.), which requires modeling oneself within a spatial scene across sequential frames to determine relative positions of other objects. These latter three tasks assess VLMs' abstract, perception-dependent spatial awareness while accommodating complex human pose variations and spatial information in embodied scenarios.            </p>
@@ -367,7 +367,7 @@
                         <div class="question-type">Question type: Per-Sce. Sim.</div>
                     </div>
                     <div class="image-container">
-                        <img src="ViewSpatial-Page/static/images/pdf2png/task1.png" alt="Random spatial reasoning example" onload="adjustContainer(this)">
+                        <img src="static/images/task1.png" alt="Random spatial reasoning example" onload="adjustContainer(this)">
                     </div>
                 </div>
             </div>
@@ -381,7 +381,7 @@
                         <div class="question-type">Question type: Cam-Rel. Dir.</div>
                     </div>
                     <div class="image-container">
-                        <img src="ViewSpatial-Page/static/images/pdf2png/task2.png" alt="Orientation spatial reasoning example" onload="adjustContainer(this)">
+                        <img src="static/images/task2.png" alt="Orientation spatial reasoning example" onload="adjustContainer(this)">
                     </div>
                 </div>
             </div>
@@ -395,7 +395,7 @@
                         <div class="question-type">Question type: Cam-Obj. Dir.</div>
                     </div>
                     <div class="image-container">
-                        <img src="ViewSpatial-Page/static/images/pdf2png/task3.png" alt="Location spatial reasoning example" onload="adjustContainer(this)">
+                        <img src="static/images/task3.png" alt="Location spatial reasoning example" onload="adjustContainer(this)">
                     </div>
                 </div>
             </div>
@@ -409,7 +409,7 @@
                         <div class="question-type">Question type: Per-Rel. Dir.</div>
                     </div>
                     <div class="image-container">
-                        <img src="ViewSpatial-Page/static/images/pdf2png/task4.png" alt="Height spatial reasoning example" onload="adjustContainer(this)">
+                        <img src="static/images/task4.png" alt="Height spatial reasoning example" onload="adjustContainer(this)">
                     </div>
                 </div>
             </div>
@@ -423,7 +423,7 @@
                         <div class="question-type">Question type: Per-Obj. Dir.</div>
                     </div>
                     <div class="image-container">
-                        <img src="ViewSpatial-Page/static/images/pdf2png/task5.png" alt="Multi-object spatial reasoning example" onload="adjustContainer(this)">
+                        <img src="static/images/task5.png" alt="Multi-object spatial reasoning example" onload="adjustContainer(this)">
                     </div>
                 </div>
             </div>
@@ -528,7 +528,7 @@
         <div class="content">
           <h2 class="title is-3">Zero-Shot Evaluation Performance</h2>
          <p>
-              <img src="ViewSpatial-Page/static/images/pdf2png/table.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+              <img src="static/images/table.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
             </p>
             <p>
                   Accuracy comparison across multiple VLMs on camera and human perspective spatial tasks. Our Multi-View Spatial Model (MVSM) significantly outperforms all baseline models across all task categories, demonstrating the effectiveness of our multi-perspective spatial fine-tuning approach. These results reveal fundamental limitations in perspective-based spatial reasoning capabilities among current VLMs. Even powerful proprietary models like GPT-4o (34.98%) and Gemini-2.0-Flash (32.56%) perform only marginally above random chance (26.33%), confirming our hypothesis that standard VLMs struggle with perspective-dependent spatial reasoning despite their strong performance on other vision-language tasks.
@@ -549,7 +549,7 @@
 
       <div class="item">
         <!-- Your image here -->
-        <img src="ViewSpatial-Page/static/images/pdf2png/case1/case1-1.png" alt="MY ALT TEXT"/>
+        <img src="static/images/case1-1.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           <strong>ViewSpatial-Bench Examples (Part 1).</strong>
   Performance comparison of three models (<em>Qwen2.5-VL (3B)</em>, <em>GPT-4o</em>, and <em>MVSM</em>)
@@ -563,14 +563,14 @@
       </div>
        <div class="item">
         <!-- Your image here -->
-        <img src="ViewSpatial-Page/static/images/pdf2png/case2/case2-1.png" alt="MY ALT TEXT"/>
+        <img src="static/images/case2-1.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           <strong>ViewSpatial-Bench Examples (Part 2).</strong>
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="ViewSpatial-Page/static/images/pdf2png/case3/case3-1.png" alt="MY ALT TEXT"/>
+        <img src="static/images/case3-1.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           <strong>ViewSpatial-Bench Examples (Part 3).</strong>
         </h2>
